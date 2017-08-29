@@ -1,6 +1,6 @@
-## 新刊情報一覧
+# 新刊情報一覧
 
-株式会社図書館流通センター (TRC) で「[TRC新刊図書オープンデータ] (http://www.trc.co.jp/trc_opendata/index.html)」が公開されることになった (2017年8月28日の[ニュースリリース] (http://www.trc.co.jp/information/pdf/20170828_release.pdf)を参照)。
+株式会社図書館流通センター (TRC) で「 [TRC新刊図書オープンデータ] (http://www.trc.co.jp/trc_opendata/index.html) 」が公開されることになった (2017年8月28日の [ニュースリリース] (http://www.trc.co.jp/information/pdf/20170828_release.pdf) を参照)。
 そこで、とりあえず、その中から「新刊の文庫」「新刊の新書」「新刊の文庫と新書」のどれか (ユーザが指定したもの) を抽出し、それぞれの書籍に対応する Amazon のページの URL も併せて出力するようにしてみた。
 
 データ形式はタブ区切りテキストで、改行コードは CR+LF である。これが zip 化されたものが公開されている。収録項目は上記リンク先ページに書いてある。
